@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  height: 100vh;
+}
+
+.leaflet-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.leafit-attribution-flag {
+  clear: both;
+  display: block;
+  float: left;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px !important;
+  background-color: tomato !important;
+  column-rule-color: aqua !important;
+}
+
+.leafit-bottom {
+  background-color: tomato !important;
+  column-rule-color: aqua !important;
+}
